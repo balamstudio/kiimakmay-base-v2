@@ -407,7 +407,6 @@ function sm_divi_builder_content_wpseo_metadesc( $desc ) {
 
 
 function custom_login_logo() {
-    // echo '<style type ="text/css">.login h1 a { background-image: url("/wp-content/uploads/2018/06/bola_konibit.png"); }</style>';
     echo '<style type ="text/css">.login h1 a { background-image:url('.get_stylesheet_directory_uri().'/images/logo-totalplay.png);height:70px;width:300px;background-size:auto;background-position:center bottom; }</style>';
 }
 
